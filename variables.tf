@@ -1,12 +1,12 @@
 variable "cidr_block" {
-    type = string
+  type = string
 }
 variable "project" {
-    type = string
+  type = string
 }
 variable "env" {
-    type = string
+  type = string
 }
 variable "owner" {
-    type = string
+  type = string
 }
