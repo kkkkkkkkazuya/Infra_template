@@ -15,17 +15,6 @@ terraform {
 # Provider
 # ----------------------------
 provider "aws" {
-  profile = "terraform"
+#   profile = "terraform"
   region  = "ap-northeast-1"
-}
-
-# ----------------------------
-# Variable
-# ----------------------------
-variable "project" {
-  type = string
-}
-
-variable "environment" {
-  type = string
 }
